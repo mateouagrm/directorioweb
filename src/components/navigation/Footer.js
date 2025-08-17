@@ -3,10 +3,10 @@ import { connect } from 'react-redux';
 
 function Footer({ }) {
     return (
-        <footer className="footer-happy">
+        <footer className="footer-directory">
             <div className="container">
-                <div className="st-copyright-wrap text-center">
-                    <div className="st-copyright-text">© All right reserved 2025. Designed by CesarFuentes.</div>
+                <div className="footer-directory-text text-center">
+                    <div>© All right reserved 2025. Designed by CesarFuentes.</div>
                 </div>
             </div>
         </footer>

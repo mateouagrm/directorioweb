@@ -1,12 +1,18 @@
 import React from "react";
 import Layout from "../hocs/Layout";
 import {connect} from "react-redux";
-import Banner from "../components/home/banner";
+import MemberSlider from "../components/home/MemberSlider";
+import BusinessPosts from "../components/home/BusinessPosts";
+import JobPosts from "../components/home/JobPosts";
+import EventPosts from "../components/home/EventPosts";
+
 const Home = () => {
     return (
         <Layout>
-        <Banner/>
-
+            <MemberSlider/>
+            <BusinessPosts/>
+            <JobPosts/>
+            <EventPosts/>
         </Layout>
     );
 };

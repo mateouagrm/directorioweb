@@ -1,7 +1,4 @@
 import React from 'react'
-import facebook from '../../assets/image/social/facebook.png'
-import instagram from '../../assets/image/social/instagram.png'
-import tiktok from '../../assets/image/social/tiktok-white.svg'
 
 function Banner() {
     return (

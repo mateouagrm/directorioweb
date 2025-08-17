@@ -1,10 +1,14 @@
 /*--------------------------------------------------------------
-5. Header
+18. footer
 ----------------------------------------------------------------*/
-.header-bg{
+.footer-directory{
   background-color: $base-color1;
+  color: $base-color2;
 }
 
-.header-text-directory{
-  color: $base-color2;
+.footer-directory-text{
+  align-items: center;
+  display: flex;
+  height: 72px;
+  justify-content: center;
 }
