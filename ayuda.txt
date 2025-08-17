@@ -45,3 +45,4 @@ navBar  | inicio | miembro | negocio | empleo | perfil |
         5.3 ubicacion
 
  | perfil |
+    1. 
