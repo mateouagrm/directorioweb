@@ -7,13 +7,20 @@ import {
 
 import Home from "./containers/Home";
 import Error404 from "./containers/Error404";
-import ProdInformation from "./containers/ProdInformation";
+import Member from "./containers/Member";
+import Business from "./containers/Business";
+import Employment from "./containers/Employment";
+import Profile from "./containers/Profile";
+
 
 export const router = createBrowserRouter(
     createRoutesFromElements(
         <>
             <Route path="/" element={<Home />} />
-            <Route path="/producto/:productoSlug" element={<ProdInformation />} />
+            <Route path="/miembro" element={<Member/>} />
+            <Route path="/negocio" element={<Business/>} />
+            <Route path="/empleo" element={<Employment/>} />
+            <Route path="/perfil" element={<Profile/>} />
             <Route path="*" element={<Error404 />} />
         </>
     ),
