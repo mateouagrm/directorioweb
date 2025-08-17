@@ -1,0 +1,47 @@
+
+navBar  | inicio | miembro | negocio | empleo | perfil |
+
+ | inicio |
+    1. slider miembros
+    2. post item negocio
+    3. post trabajo
+    4. post de eventos
+
+ | miembro |
+    1. lateral derecho menu sugerencia categoria - sugerencia sub categoria
+    2. filtros ( buscador )
+    3. miembro general
+    4. miembro detalle
+        4.1 foto
+        4.2 informacion personal
+        4.3 informacion iglesia
+        4.4 informacion habilidades
+        4.5 informacion negocios
+
+ | negocio |
+    1. lateral derecho - menu sugerencia de categoria y sub categoria
+    2. lateral derecho - crear negocio
+    3. lateral derecho . listar negocio
+    4. filtro ( buscador )
+    5. negocio general
+    6. genocio detalle
+        6.1 imagen | titulo | sub titulo
+        6.2 descripcion
+        6.3 productos | servicios
+        6.4 galeria de imagenes
+        6.5 ubicacion google maps.
+        6.6 contactos
+        6.7 post negocios ( opcional )
+        6.8 oferta de trabajo
+
+ | empleo |
+    1. filtro ( busqueda )
+    2. ubicacion ( se abre google maps y los puntos de empleo )
+    3. fecha de empleo solicitud
+    4. listado de empleo general
+    5. detalle de empleo
+        5.1 descripcion
+        5.2 contacto
+        5.3 ubicacion
+
+ | perfil |
