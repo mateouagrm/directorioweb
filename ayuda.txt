@@ -6,6 +6,7 @@ navBar  | inicio | miembro | negocio | empleo | perfil |
     2. post item negocio
     3. post trabajo
     4. post de eventos
+        4.1 detalle post evento
 
  | miembro |
     1. lateral derecho menu sugerencia categoria - sugerencia sub categoria
@@ -16,7 +17,7 @@ navBar  | inicio | miembro | negocio | empleo | perfil |
         4.2 informacion personal
         4.3 informacion iglesia
         4.4 informacion habilidades
-        4.5 informacion negocios
+        4.5 informacion negocios (opcional)
 
  | negocio |
     1. lateral derecho - menu sugerencia de categoria y sub categoria

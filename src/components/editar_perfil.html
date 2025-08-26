@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Editar Perfil</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <style type="text/tailwindcss">
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        :root {
+            --primary-color: #3b82f6;}
+        .multi-select {
+            @apply block w-full bg-gray-100 border-transparent rounded-lg py-3 px-4 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:bg-white;
+        }
+    </style>
+    <style>
+        body {
+            min-height: max(884px, 100dvh);
+        }
+    </style>
+    <style>
+        body {
+            min-height: max(884px, 100dvh);
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+<div class="max-w-md mx-auto bg-white shadow-lg rounded-lg my-10">
+    <div class="p-5 border-b border-gray-200 flex justify-between items-center">
+        <span class="material-icons text-gray-600">close</span>
+        <h1 class="text-xl font-semibold text-gray-800">Editar perfil</h1>
+        <div class="w-6"></div>
+    </div>
+    <div class="p-6">
+        <div class="flex flex-col items-center">
+            <img alt="Foto de perfil de Sofia Ramirez" class="w-28 h-28 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDN-tTvHptAYUWJKmBYaCDn0jSdA3xFwBJy4YcQc4LpR_KXTxgXSljit2sLDvzwUwHqf8GZYhQ7gwCvVSKkk1rpbxMyqeC9uwI4Xzuh4-eaP3mcNTQZD5NbmgJ1hhc4Hov08n_3tcxVsLHhQh84sXfqPUVUOJEaqn0DFM9Ds5dai_VY1qecXv5N3OYvl4IzRlsNJYV5rsZdPT59qXsCjRMaNUpEFwzUhdLNxDaZoTqd6i2eRWEgBxES3ww3JrOSCIzV7_KqFHhteOI"/>
+            <h2 class="text-2xl font-bold mt-4 text-gray-800">Sofia Ramirez</h2>
+            <p class="text-gray-500">Miembro desde 2020</p>
+        </div>
+        <div class="mt-8 space-y-6">
+            <div>
+                <h3 class="text-lg font-semibold text-gray-700 mb-4">Información Personal</h3>
+                <div class="space-y-4">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-600" for="full-name">Nombre completo</label>
+                        <input class="mt-1 block w-full bg-gray-100 border-transparent rounded-lg py-3 px-4 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:bg-white" id="full-name" type="text"/>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-600" for="email">Correo electrónico</label>
+                        <input class="mt-1 block w-full bg-gray-100 border-transparent rounded-lg py-3 px-4 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:bg-white" id="email" type="email"/>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-600" for="phone">Teléfono</label>
+                        <input class="mt-1 block w-full bg-gray-100 border-transparent rounded-lg py-3 px-4 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:bg-white" id="phone" type="tel"/>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h3 class="text-lg font-semibold text-gray-700 mb-4 pt-4 border-t border-gray-200">Información de la Iglesia</h3>
+                <div class="space-y-4">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-600" for="ministry">Ministerio</label>
+                        <input class="mt-1 block w-full bg-gray-100 border-transparent rounded-lg py-3 px-4 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:bg-white" id="ministry" type="text"/>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-600" for="church-time">Tiempo en la iglesia</label>
+                        <input class="mt-1 block w-full bg-gray-100 border-transparent rounded-lg py-3 px-4 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:bg-white" id="church-time" type="text"/>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h3 class="text-lg font-semibold text-gray-700 mb-4 pt-4 border-t border-gray-200">Participación y Habilidades</h3>
+                <div class="space-y-4">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-600" for="activities">Participación en actividades</label>
+                        <textarea class="mt-1 block w-full bg-gray-100 border-transparent rounded-lg py-3 px-4 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:bg-white" id="activities" rows="4"></textarea>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-600" for="skills">Habilidades</label>
+                        <div class="flex items-center gap-2 mt-1">
+                            <input class="block w-full bg-gray-100 border-transparent rounded-lg py-3 px-4 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:bg-white" id="new-skill" placeholder="Añadir nueva habilidad" type="text"/>
+                            <button class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-4 rounded-lg focus:outline-none transition duration-150 ease-in-out">
+                                <span class="material-icons">add</span>
+                            </button>
+                        </div>
+                        <div class="mt-2 flex flex-wrap gap-2">
+<span class="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-blue-900 dark:text-blue-300 flex items-center">
+                  Desarrollador
+                  <button class="ms-1.5">
+<span class="material-icons text-sm">close</span>
+</button>
+</span>
+                            <span class="bg-green-100 text-green-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-green-900 dark:text-green-300 flex items-center">
+                  Diseñador
+                  <button class="ms-1.5">
+<span class="material-icons text-sm">close</span>
+</button>
+</span>
+                            <span class="bg-yellow-100 text-yellow-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-yellow-900 dark:text-yellow-300 flex items-center">
+                  Cocinero
+                  <button class="ms-1.5">
+<span class="material-icons text-sm">close</span>
+</button>
+</span>
+                            <span class="bg-purple-100 text-purple-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-purple-900 dark:text-purple-300 flex items-center">
+                  Músico
+                  <button class="ms-1.5">
+<span class="material-icons text-sm">close</span>
+</button>
+</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pt-6">
+                <button class="w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-4 rounded-lg focus:outline-none transition duration-150 ease-in-out">
+                    Guardar cambios
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body></html>
