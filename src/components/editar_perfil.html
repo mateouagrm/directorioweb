@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="es"><head>
+<html lang="es">
+<head>
     <meta charset="utf-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <title>Editar Perfil</title>
@@ -10,8 +11,11 @@
         body {
             font-family: 'Roboto', sans-serif;
         }
+
         :root {
-            --primary-color: #3b82f6;}
+            --primary-color: #3b82f6;
+        }
+
         .multi-select {
             @apply block w-full bg-gray-100 border-transparent rounded-lg py-3 px-4 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:bg-white;
         }
@@ -36,7 +40,8 @@
     </div>
     <div class="p-6">
         <div class="flex flex-col items-center">
-            <img alt="Foto de perfil de Sofia Ramirez" class="w-28 h-28 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDN-tTvHptAYUWJKmBYaCDn0jSdA3xFwBJy4YcQc4LpR_KXTxgXSljit2sLDvzwUwHqf8GZYhQ7gwCvVSKkk1rpbxMyqeC9uwI4Xzuh4-eaP3mcNTQZD5NbmgJ1hhc4Hov08n_3tcxVsLHhQh84sXfqPUVUOJEaqn0DFM9Ds5dai_VY1qecXv5N3OYvl4IzRlsNJYV5rsZdPT59qXsCjRMaNUpEFwzUhdLNxDaZoTqd6i2eRWEgBxES3ww3JrOSCIzV7_KqFHhteOI"/>
+            <img alt="Foto de perfil de Sofia Ramirez" class="w-28 h-28 rounded-full object-cover"
+                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuDN-tTvHptAYUWJKmBYaCDn0jSdA3xFwBJy4YcQc4LpR_KXTxgXSljit2sLDvzwUwHqf8GZYhQ7gwCvVSKkk1rpbxMyqeC9uwI4Xzuh4-eaP3mcNTQZD5NbmgJ1hhc4Hov08n_3tcxVsLHhQh84sXfqPUVUOJEaqn0DFM9Ds5dai_VY1qecXv5N3OYvl4IzRlsNJYV5rsZdPT59qXsCjRMaNUpEFwzUhdLNxDaZoTqd6i2eRWEgBxES3ww3JrOSCIzV7_KqFHhteOI"/>
             <h2 class="text-2xl font-bold mt-4 text-gray-800">Sofia Ramirez</h2>
             <p class="text-gray-500">Miembro desde 2020</p>
         </div>
@@ -46,42 +51,54 @@
                 <div class="space-y-4">
                     <div>
                         <label class="block text-sm font-medium text-gray-600" for="full-name">Nombre completo</label>
-                        <input class="mt-1 block w-full bg-gray-100 border-transparent rounded-lg py-3 px-4 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:bg-white" id="full-name" type="text"/>
+                        <input class="mt-1 block w-full bg-gray-100 border-transparent rounded-lg py-3 px-4 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:bg-white"
+                               id="full-name" type="text"/>
                     </div>
                     <div>
                         <label class="block text-sm font-medium text-gray-600" for="email">Correo electrónico</label>
-                        <input class="mt-1 block w-full bg-gray-100 border-transparent rounded-lg py-3 px-4 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:bg-white" id="email" type="email"/>
+                        <input class="mt-1 block w-full bg-gray-100 border-transparent rounded-lg py-3 px-4 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:bg-white"
+                               id="email" type="email"/>
                     </div>
                     <div>
                         <label class="block text-sm font-medium text-gray-600" for="phone">Teléfono</label>
-                        <input class="mt-1 block w-full bg-gray-100 border-transparent rounded-lg py-3 px-4 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:bg-white" id="phone" type="tel"/>
+                        <input class="mt-1 block w-full bg-gray-100 border-transparent rounded-lg py-3 px-4 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:bg-white"
+                               id="phone" type="tel"/>
                     </div>
                 </div>
             </div>
             <div>
-                <h3 class="text-lg font-semibold text-gray-700 mb-4 pt-4 border-t border-gray-200">Información de la Iglesia</h3>
+                <h3 class="text-lg font-semibold text-gray-700 mb-4 pt-4 border-t border-gray-200">Información de la
+                    Iglesia</h3>
                 <div class="space-y-4">
                     <div>
                         <label class="block text-sm font-medium text-gray-600" for="ministry">Ministerio</label>
-                        <input class="mt-1 block w-full bg-gray-100 border-transparent rounded-lg py-3 px-4 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:bg-white" id="ministry" type="text"/>
+                        <input class="mt-1 block w-full bg-gray-100 border-transparent rounded-lg py-3 px-4 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:bg-white"
+                               id="ministry" type="text"/>
                     </div>
                     <div>
-                        <label class="block text-sm font-medium text-gray-600" for="church-time">Tiempo en la iglesia</label>
-                        <input class="mt-1 block w-full bg-gray-100 border-transparent rounded-lg py-3 px-4 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:bg-white" id="church-time" type="text"/>
+                        <label class="block text-sm font-medium text-gray-600" for="church-time">Tiempo en la
+                            iglesia</label>
+                        <input class="mt-1 block w-full bg-gray-100 border-transparent rounded-lg py-3 px-4 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:bg-white"
+                               id="church-time" type="text"/>
                     </div>
                 </div>
             </div>
             <div>
-                <h3 class="text-lg font-semibold text-gray-700 mb-4 pt-4 border-t border-gray-200">Participación y Habilidades</h3>
+                <h3 class="text-lg font-semibold text-gray-700 mb-4 pt-4 border-t border-gray-200">Participación y
+                    Habilidades</h3>
                 <div class="space-y-4">
                     <div>
-                        <label class="block text-sm font-medium text-gray-600" for="activities">Participación en actividades</label>
-                        <textarea class="mt-1 block w-full bg-gray-100 border-transparent rounded-lg py-3 px-4 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:bg-white" id="activities" rows="4"></textarea>
+                        <label class="block text-sm font-medium text-gray-600" for="activities">Participación en
+                            actividades</label>
+                        <textarea
+                                class="mt-1 block w-full bg-gray-100 border-transparent rounded-lg py-3 px-4 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:bg-white"
+                                id="activities" rows="4"></textarea>
                     </div>
                     <div>
                         <label class="block text-sm font-medium text-gray-600" for="skills">Habilidades</label>
                         <div class="flex items-center gap-2 mt-1">
-                            <input class="block w-full bg-gray-100 border-transparent rounded-lg py-3 px-4 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:bg-white" id="new-skill" placeholder="Añadir nueva habilidad" type="text"/>
+                            <input class="block w-full bg-gray-100 border-transparent rounded-lg py-3 px-4 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:bg-white"
+                                   id="new-skill" placeholder="Añadir nueva habilidad" type="text"/>
                             <button class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-4 rounded-lg focus:outline-none transition duration-150 ease-in-out">
                                 <span class="material-icons">add</span>
                             </button>
@@ -124,4 +141,5 @@
     </div>
 </div>
 
-</body></html>
+</body>
+</html>
